@@ -1,5 +1,6 @@
 package com.freyr.bladecraft;
 
+import com.freyr.bladecraft.blocks.ModBlocks;
 import com.freyr.bladecraft.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,7 @@ public class BladeCraft {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
