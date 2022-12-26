@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": "bc:block/raw_ruby_block"
+    "": {
+      "model": "bc:block/raw_ruby_block"
+    }
   }
 }

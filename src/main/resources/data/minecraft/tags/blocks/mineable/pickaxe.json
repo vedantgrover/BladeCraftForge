@@ -1,0 +1,8 @@
+{
+  "values": [
+    "bc:ruby_block",
+    "bc:raw_ruby_block",
+    "bc:ruby_ore_block",
+    "bc:deepslate_ruby_ore_block"
+  ]
+}
