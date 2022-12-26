@@ -1,7 +1,10 @@
 package com.freyr.bladecraft;
 
 import com.freyr.bladecraft.blocks.ModBlocks;
+import com.freyr.bladecraft.items.ModCreativeModeTab;
 import com.freyr.bladecraft.items.ModItems;
+import com.freyr.bladecraft.world.feature.ModConfiguredFeatures;
+import com.freyr.bladecraft.world.feature.ModPlacedFeatures;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +28,9 @@ public class BladeCraft {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
