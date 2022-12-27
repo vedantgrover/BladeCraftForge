@@ -10,11 +10,4 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.RUBY.get());
         }
     };
-
-    public static final CreativeModeTab SAPPHIRE_ITEM_GROUP = new CreativeModeTab("sapphire_item_group") {
-        @Override
-        public ItemStack makeIcon() {
-            return new ItemStack(ModItems.SAPPHIRE.get());
-        }
-    };
 }
