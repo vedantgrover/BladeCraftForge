@@ -6,9 +6,5 @@
   "block.bc.ruby_ore_block": "Ruby Ore",
   "block.bc.deepslate_ruby_ore_block": "Deepslate Ruby Ore",
 
-  "item.bc.sapphire": "Sapphire",
-  "item.bc.raw_sapphire": "Raw Sapphire",
-
-  "itemGroup.ruby_item_group": "Ruby",
-  "itemGroup.sapphire_item_group": "Sapphire"
+  "itemGroup.ruby_item_group": "Ruby"
 }
